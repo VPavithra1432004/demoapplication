@@ -11,5 +11,9 @@ public class DemoController {
 	public String welcome() {
 		return "welcome to world";
 	}
+	@GetMapping("/world")
+	public String welcome1() {
+		return "world";
+	}
 
 }
